@@ -14,7 +14,6 @@
     },
     {
         "id":3,
-        "img":"foto03.png",
         "txt": "El patinete puede alcanzar una velocidad máxima de 25 km/h y tiene una capacidad de ascensión de un 16 %. Avanza con solo pulsar ligeramente el acelerador.",
         "precio": 350
     },
@@ -27,7 +26,7 @@
     {
         "id":5,
         "img":"foto05.png",
-        "tx": "El patinete puede alcanzar una velocidad máxima de 25 km/h y tiene una capacidad de ascensión de un 16 %. Avanza con solo pulsar ligeramente el acelerador.",
+        "txt": "El patinete puede alcanzar una velocidad máxima de 25 km/h y tiene una capacidad de ascensión de un 16 %. Avanza con solo pulsar ligeramente el acelerador.",
         "precio": 250
     },
     {

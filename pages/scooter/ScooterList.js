@@ -4,7 +4,7 @@ import { useState,useEffect } from 'react';
 
 
 
-const ScooterList = () => {
+const ScooterList = ({selectedSc}) => {
 
     const [scList,setScList] = useState([]);
 
@@ -12,16 +12,16 @@ const ScooterList = () => {
         const fetchSc = async () => {
             const response = await fetch("/api/scData.json");
             const scList = await response.json();
-            console.log(scList);
+            //console.log(scList);
             setScList(scList.data);
           };
           fetchSc();
-    });
+    }, []);
     return(
         <div className="container text-center scooterlist d-flex flex-wrap justify-content-between">
             {
                 scList.map(sc=>(
-                    <Scooter key={sc.id} scooter={sc} />
+                    <Scooter key={sc.id} scooter={sc} selectedSc={selectedSc}/>
                 ))
             }
         </div>
