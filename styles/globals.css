@@ -1,4 +1,7 @@
 /*Estilos Globales*/
+body{
+  background-color: #F8F8F8;
+}
 .scooterlist{
   margin-top: 100px;
 }

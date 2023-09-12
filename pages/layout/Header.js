@@ -4,7 +4,7 @@ import { ThemeContext } from "../App";
 const Header = () => {
     const {darkTheme,cambiarDarkTheme} = useContext(ThemeContext);
     return(
-        <nav className="navbar fixed-top bg-body-secondary">
+        <nav className="navbar fixed-top bg-body-secondary" data-bs-theme={darkTheme?"dark":""}>
             <div className="container-fluid">
                 <a className="navbar-brand d-flex  align-items-center" href="#">
                     <img src="./img/logo.png" alt="Logo" height="35" class="d-inline-block align-text-top"/>
