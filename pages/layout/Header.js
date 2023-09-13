@@ -16,7 +16,7 @@ const Header = () => {
                     id="flexSwitchCheckDefault" 
                     checked={darkTheme===true}
                     onChange={()=>{cambiarDarkTheme();}}/>
-                    <label className={darkTheme?"form-check-label text-light":"form-check-label"} for="flexSwitchCheckDefault">Oscuro</label>
+                    <label className={darkTheme?"form-check-label text-light":"form-check-label"} for="flexSwitchCheckDefault">Tema oscuro</label>
                 </div>
             </div>
         </nav>
